@@ -1,0 +1,25 @@
+{
+  "name": "leonardo/simple-laravel-logs",
+  "description": "O pacote leonardo/simple-laravel-logs fornece funções fáceis de usar para registrar as atividades dos usuários do seu aplicativo. Ele também pode registrar automaticamente eventos de modelo. Todas as atividades são utilizadas utilizando o Loggins do Laravel. ",
+  "keywords": ["logs", "loggins", "events", "laravel"],
+  "license": "MIT",
+  "version": "*",
+  "authors": [
+    {
+      "name": "Leonardo",
+      "email": "leonardo.araujornb@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^8.1"
+  },
+  "autoload": {
+    "files": [
+      "src/helpers.php"
+    ],
+    "psr-4": {
+      "Leo\\SimpleLogs\\": "src/",
+      "Leo\\SimpleLogs\\Traits": "src/Traits"
+    }
+  }
+}
